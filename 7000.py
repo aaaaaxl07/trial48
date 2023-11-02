@@ -122,7 +122,7 @@ class create:
             'sec-fetch-site': 'none',
             'sec-fetch-user': '?1',
             'upgrade-insecure-requests': '1',
-            'user-agent': 'Mozilla/5.0 (Linux; Android 8.1.0; Redmi Note 3 Build/OPM4.171019.021.Y1; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.91 Mobile Safari/537.36[FBAN/EMA;FBLC/id_ID;FBAV/277.0.0.13.119;]',
+            'user-agent': 'Mozilla/5.0 (Linux; Android 5.0.2; SAMSUNG SM-G925F Build/LRX22G) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/4.0 Chrome/44.0.2403.133 Mobile Safari/537.36',
             'viewport-width': '980',
         }
         headers1 = {
@@ -139,7 +139,7 @@ class create:
             'sec-fetch-mode': 'navigate',
             'sec-fetch-site': 'none',
             'upgrade-insecure-requests': '1',
-            'user-agent': 'Mozilla/5.0 (Linux; Android 8.1.0; Redmi Note 3 Build/OPM4.171019.021.Y1; wv) AppleWebKit/537.36 (KHTML, like Gecko) Version/4.0 Chrome/68.0.3440.91 Mobile Safari/537.36[FBAN/EMA;FBLC/id_ID;FBAV/277.0.0.13.119;]'
+            'user-agent': 'Mozilla/5.0 (Linux; Android 5.0.2; SAMSUNG SM-G925F Build/LRX22G) AppleWebKit/537.36 (KHTML, like Gecko) SamsungBrowser/4.0 Chrome/44.0.2403.133 Mobile Safari/537.36'
         }
         print(' [•] Use airplane mode if no result. ')
         print (56*'-')
