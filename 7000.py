@@ -122,7 +122,7 @@ class create:
             'sec-fetch-site': 'none',
             'sec-fetch-user': '?1',
             'upgrade-insecure-requests': '1',
-            'user-agent': agent,
+            'user-agent': 'Dalvik/2.1.0 (Linux; U; Android 6.0.1; vivo 1606 Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Mobile Safari/537.36',
             'viewport-width': '980',
         }
         headers1 = {
@@ -139,7 +139,7 @@ class create:
             'sec-fetch-mode': 'navigate',
             'sec-fetch-site': 'none',
             'upgrade-insecure-requests': '1',
-            'user-agent': agent
+            'user-agent': 'Dalvik/2.1.0 (Linux; U; Android 6.0.1; vivo 1606 Build/MMB29M) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/96.0.4664.45 Mobile Safari/537.36'
         }
         print(' [•] Use airplane mode if no result. ')
         print (56*'-')
@@ -168,7 +168,7 @@ class create:
                 pass
             except Exception as e:
                 pass
-            passw = name[0]+name[1]+str(random.randint(111,999))
+            passw = name[0]+name[1]+str(random.randint(11111,99999))
             try:
                 self.ses = requests.Session()
                 a = self.ses.get('https://m.facebook.com/reg?_fb_noscript', headers=headers)
